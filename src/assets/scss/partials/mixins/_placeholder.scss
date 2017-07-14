@@ -1,0 +1,86 @@
+%linkNone {
+  text-decoration: underline;
+  &:hover {
+    @include breakpoint(large) {
+      text-decoration: none;
+    } 
+  }  
+}
+
+%linkUnder {
+  text-decoration: none;
+  &:hover {
+    @include breakpoint(large) {
+      text-decoration: underline;
+    } 
+  }  
+}
+
+%opacity {
+  &:hover {
+    @include breakpoint(large) {
+      opacity: 0.8;
+    } 
+  }
+}
+
+%borderNone {
+  &:hover {
+    @include breakpoint(large) {
+      border: none;
+    } 
+  }
+}
+
+%blockLarge {
+  @include breakpoint(large down) {
+    & {
+      display: block;
+      > div {
+        width: 100%;
+        margin-bottom: rem-calc(20);
+        margin-right: 0;
+        margin-left: 0;
+        &:nth-last-child(1) {
+          margin-bottom: 0;
+        }
+      }
+    } 
+  }
+}
+
+%blockMedium {
+  @include breakpoint(small down) {
+    & {
+      display: block;
+      > div {
+        width: 100%;
+        margin-bottom: rem-calc(20);
+        margin-right: 0;
+        margin-left: 0;
+        &:nth-last-child(1) {
+          margin-bottom: 0;
+        }
+      }
+    } 
+  }
+}
+
+%italic {
+  color: #4c8eda;
+  font-family: $font, Arial, sans-serif;;
+  font-size: 0.875rem;
+  font-style: italic;
+  border-bottom: 1px dotted;
+  text-decoration: none;
+  font-weight: 400;
+  display: inline-block;
+  height: 21px;
+  box-sizing: border-box;
+  @include breakpoint(large) {
+    &:hover {
+      border-bottom: 1px transparent;
+      height: 21px;
+    }
+  }
+}

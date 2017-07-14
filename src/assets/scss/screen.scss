@@ -1,0 +1,33 @@
+//Подключаем настройки и плейсхолдеры
+@import 'settings';
+@import 'partials/mixins/placeholder';
+
+//Подключаем шрифты и собственный reset
+@import 'base/typography';
+@import 'base/reset';
+
+//Подключаем foundation
+@import 'foundation';
+@include foundation-xy-grid-classes;
+@include foundation-flex-classes;
+
+// //Подключаем стили темы
+// @import 'themes/buttons.scss';
+
+// //Подключаем стили отдельных компонентов
+// @import 'partials/components/flags';
+// @import 'partials/components/selectize';
+
+// //Подключаем основные блоки сайта
+// @import 'partials/blocks/header';
+// @import 'partials/blocks/footer';
+// @import 'partials/blocks/menu';
+// @import 'partials/blocks/multimenu';
+// @import 'partials/blocks/why';
+// @import 'partials/blocks/translate';
+
+// //Подключаем стили отдельных страниц
+// @import 'pages/index';
+
+// //Подключаем стили base64-картинок
+@import 'base/base64';
