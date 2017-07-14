@@ -66,7 +66,7 @@
 // ---------
 
 $global-font-size: 100%;
-$global-width: rem-calc(1120); // Ширина рабочей области
+$global-width: rem-calc(940); // Ширина рабочей области
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: #1779ba,
@@ -101,26 +101,35 @@ $print-transparent-backgrounds: true;
 //My variables
 // Свои под каждый проект!
 $background: #ffffff;
-$baseColor: #425263;
-$linkColor: #049f43;
-$borderColor: #ebedf3;
-$borderGreen: #009e43;
-$red: #e74c3c;
-$white: #ffffff;
-$deepBlue: #0c54a0;
-$greenText: #b0cb1f;
-$blueText: #01abe6;
-$localText: #a3a6b3;
-$worktimeColor: #9cb4cf;
-$footerCallbackColor: #fafbff;
-$socialColor: #80b4d7;
+$darkgrey: #222222;
+$darkgrey2: #2d3032;
+$lightgrey: #a5a5a5;
+$grey: #8d8d8d;
+$yellow: #ffeb3b;
+$blue: #0288d1;
+$blue2: #0691dd;
+$pink: #ff4081;
+$almost-white: #f7f9fb;
+$borderColor: #9d9e9f;
+
+// $baseColor: #425263;
+// $linkColor: #049f43;
+
+// $borderGreen: #009e43;
+// $red: #e74c3c;
+// $white: #ffffff;
+// $deepBlue: #0c54a0;
+// $greenText: #b0cb1f;
+// $blueText: #01abe6;
+// $localText: #a3a6b3;
+// $worktimeColor: #9cb4cf;
+// $footerCallbackColor: #fafbff;
+// $socialColor: #80b4d7;
 
 $bigBr: rem-calc(25);
 $mbp: rem-calc(25);
-$font: 'PT Sans', Arial, sans-serif;
-$fontTwo: 'Roboto Condensed', Arial, sans-serif;
-$fontThree: 'Roboto', Arial, sans-serif;
-
+$font: 'Roboto', Arial, sans-serif;
+$fontTwo: 'Raleway', Arial, sans-serif;
 
 
 @include add-foundation-colors;
@@ -134,6 +143,32 @@ $breakpoints: (
   large: 1024px,
   xlarge: 1200px
 );
+
+//font sizes
+$fz12: rem-calc(12);
+$fz13: rem-calc(13);
+$fz14: rem-calc(14);
+$fz15: rem-calc(15);
+$fz16: rem-calc(16);
+$fz17: rem-calc(17);
+$fz18: rem-calc(18);
+$fz19: rem-calc(19);
+$fz20: rem-calc(20);
+$fz21: rem-calc(21);
+$fz22: rem-calc(22);
+$fz23: rem-calc(23);
+$fz24: rem-calc(24);
+$fz25: rem-calc(25);
+$fz26: rem-calc(26);
+$fz27: rem-calc(27);
+$fz28: rem-calc(28);
+$fz29: rem-calc(29);
+$fz30: rem-calc(30);
+$fz32: rem-calc(32);
+$fz34: rem-calc(34);
+$fz36: rem-calc(36);
+$fz38: rem-calc(38);
+$fz40: rem-calc(40);
 
 // кастомные для каждого проекта
 $print-breakpoint: large;

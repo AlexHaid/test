@@ -6,7 +6,7 @@
   background: $background;
   height: 100%;
   font-family: $font;
-  color: $baseColor;
+  color: black;
   font-weight: 400;
 }
 
@@ -78,7 +78,7 @@ button, button:active, button:focus, button:hover, button:visited {
 a {
   outline: none;
   @extend %linkNone;
-  color: $linkColor;
+  color: $blue;
 }
 
 footer a, header a, nav a {
@@ -153,7 +153,7 @@ table {
 }
 
 table th, table thead td, table thead th {
-  color: $baseColor;
+  color: black;
   font-weight: bold;
 }
 
